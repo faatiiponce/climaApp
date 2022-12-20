@@ -1,0 +1,120 @@
+.estiloBarra {
+    background: #C8BBFD;
+    position: central;
+    border-color: #9279FB;
+    margin: 5px;
+    border: 20px;
+    color: #450359;
+    border-radius: 13px;
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 23px;
+  }
+  
+  .estiloBoton {
+    background: #9279FB;
+    color: #450359;
+    border-radius: 13px;
+    font-style: inherit;
+    border-color: #C8BBFD;
+  }
+
+  .estiloBoton:hover{
+    background: #450359;
+    color: #9279FB;
+    border-color: #450359;
+  }
+
+
+  .estiloX {
+    background-color: rgb(140, 0, 255);
+    border-color: #b74aff;
+    border-radius: 5px;
+    color: white;
+    width: 30px;
+    height: 30px;
+    float: right;
+  }
+
+  .estiloX:hover {
+    background-color: white ;
+    color: rgb(140, 0, 255);
+    border-color: white;
+  }
+
+  .estiloCiudad {
+    background-color: #5e548e00;
+    color: white;
+    /* width: 103%; */
+    align-items: center;
+    border-radius: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  .estiloMinMax {
+    background-color:  #5e548e00;
+    width: 100%;
+    color: white;
+    position: bottom;
+    border-radius: 20px;
+  }
+
+  
+
+  .estiloImg {
+    background-color: #5e548e00;
+    width: 75px;
+    height: 75px;
+    float: left;
+  }
+
+  .flexColumna {
+    display: flex;  
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* background-color: rgb(77, 47, 90);
+    column-width: auto;
+    margin: auto;
+    justify-content: space-around;
+    /* margin-left: 10px;
+    margin-top: 10px; */
+    /* font-size: large;
+    width: 460px;
+    height: 150px;
+    border-radius: 20px; */ 
+    
+  }
+
+  .estiloCard {
+    display: inline-block;
+    background-color:#5e548e75;
+    order: unset;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: auto;
+    justify-content: auto;
+    width: 300px;
+    height: 150px;
+    /* margin-left: 300px; 
+    height: 100px; */
+    margin: auto;
+    border-radius: 20px;
+  }
+
+  .fondoTest {
+    background-color: black;
+  }
+
+  .estiloGlobal {
+    display: flex;
+    align-items: auto;
+    justify-content: auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0px;
+  }
+
+
+  .prueba{
+    display: flex;
+
+  }
